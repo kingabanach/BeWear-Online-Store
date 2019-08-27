@@ -1,1 +1,1 @@
-BeWear Fashion Store
+BeWear Online Store
