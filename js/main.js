@@ -15,7 +15,7 @@ const $searchinput = $('.search-input');
 
 $search.on('click', function(e){
 
-
+    e.preventDefault();
     if($('.user-nav').hasClass('inclicked') !== true) {
         $('.user-nav').addClass('inclicked');
         $searchicon.before('<input class="search-input" type="text" placeholder="Znajdź">');

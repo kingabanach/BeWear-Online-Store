@@ -213,14 +213,10 @@ body {
   margin-right: 5px;
   height: 30px;
   padding-left: 5px;
-  width: 30px;
-  -webkit-transition: width 0.4s ease-in-out;
-  transition: width 0.4s ease-in-out;
 }
 
 .search-input:focus {
   outline: none;
-  width: 250px;
 }
 
 .banner-container {
@@ -392,6 +388,10 @@ body {
   cursor: pointer;
   -webkit-transition: 0.3s;
   transition: 0.3s;
+}
+
+.join-club-btn:focus {
+  outline: none;
 }
 
 .footer {
