@@ -394,4 +394,48 @@ body {
   transition: 0.3s;
 }
 
+.footer {
+  width: 100vw;
+  height: 400px;
+  background-color: #ddd;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer ul {
+  list-style: none;
+}
+
+.footer ul li a {
+  color: black;
+  line-height: 40px;
+}
+
+.footer .media {
+  font-size: 40px;
+  margin: 15px;
+  text-decoration: none;
+}
+
+.copyright {
+  width: 100vw;
+  height: 100px;
+  background-color: #666;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 /*# sourceMappingURL=main.css.map */

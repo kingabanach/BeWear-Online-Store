@@ -323,3 +323,36 @@ body {
     cursor: pointer;
     transition: 0.3s;
 }
+
+.footer {
+    width: 100vw;
+    height: 400px;
+    background-color: #ddd;;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer ul li a {
+    color: black;
+    line-height: 40px;
+}
+
+.footer .media {
+    font-size: 40px;
+    margin: 15px;
+    text-decoration: none;
+}
+
+.copyright {
+    width: 100vw;
+    height: 100px;
+    background-color: #666;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
