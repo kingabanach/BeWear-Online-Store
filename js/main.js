@@ -34,12 +34,5 @@ if(e.keyCode == '13') {
 };
 })
 
+
 })
-
-// $.ajax({
-//     url:
-//     dataType: 'json',
-//     method: 'GET',
-
-
-// })
